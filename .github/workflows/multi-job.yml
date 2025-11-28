@@ -10,7 +10,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Set up go
-      uses: actions/setup-go@5.5.0
+      uses: actions/setup-go@v5.5.0
       with:
         go-version: "1.20"
     - name: Build Go binary
@@ -24,7 +24,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Set up go
-      uses: actions/setup-go@5.5.0
+      uses: actions/setup-go@v5.5.0
       with:
         go-version: "1.20"
     - name: Build Go binary
@@ -38,7 +38,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Set up go
-      uses: actions/setup-go@5.5.0
+      uses: actions/setup-go@v5.5.0
       with:
         go-version: "1.20"
     - name: Build Go binary
@@ -53,7 +53,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Set up go
-      uses: actions/setup-go@5.5.0
+      uses: actions/setup-go@v5.5.0
       with:
         go-version: "1.20"
     - name: Cross-compile for all platform
